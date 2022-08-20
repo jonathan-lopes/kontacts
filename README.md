@@ -10,7 +10,7 @@ A aplicação trata-se de uma agenda pessoal, onde você pode fazer um cadastro 
 
 Para desenvolver, nesse repositório temos um arquivo figma chamado `design.fig`.
 
-Você pode ver e testar a aplicação nesse link => [https://kontacts.netlify.app/](https://cubosagenda.netlify.app/)
+Você pode ver e testar a aplicação nesse link => [https://kontactsignis.netlify.app/](https://kontactsignis.netlify.app/)
 
 
 Para acessar a API [clique aqui](https://github.com/jonathan-lopes/api-kontacts)
