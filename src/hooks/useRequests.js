@@ -112,6 +112,10 @@ function useRequests() {
         }
       );
 
+      if (response.status === 204) {
+        return true;
+      }
+
       const data = await response.json();
 
       if (!response.ok) {
@@ -141,6 +145,10 @@ function useRequests() {
           },
         }
       );
+
+      if (response.status === 204) {
+        return true;
+      }
 
       const data = await response.json();
 
