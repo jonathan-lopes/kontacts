@@ -1,4 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1031c119-1817-4188-80f7-f37a2ef36e58/deploy-status)](https://app.netlify.com/sites/kontactsignis/deploys)
+
 ![](https://i.imgur.com/xG74tOh.png)
+
 
 # Aula prática de React
 
