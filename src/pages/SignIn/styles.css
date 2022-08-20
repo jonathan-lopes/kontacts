@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  height: 100vh;
+}
+
+main div {
+  width: 50%;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-right form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.container-right form span {
+  font-size: 1.6em;
+}
+
+.container-right form h1 {
+  margin: 0 0 32px 0;
+  font-size: 3em;
+}
+
+.btn-login {
+  margin-top: 72px;
+}
+
+.register-link {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-top: 96px;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 846px) {
+  .container-right form {
+    width: 80%;
+  }
+
+  .register-link {
+    font-size: 1.2rem;
+  }
+
+  .container-right {
+    min-width: 100vw;
+  }
+}

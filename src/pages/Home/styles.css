@@ -1,0 +1,22 @@
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-home {
+  margin-top: 40px;
+  width: 80%;
+}
+
+.btn-adicionar {
+  width: 200px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 540px) {
+  .btn-adicionar {
+    min-width: 80vw;
+  }
+}

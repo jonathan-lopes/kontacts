@@ -1,0 +1,120 @@
+.container-table {
+  width: 100%;
+}
+
+.header-table {
+  display: flex;
+  align-items: center;
+  height: 46px;
+  background: #f4f0f0;
+  text-align: left;
+  padding: 0 24px;
+}
+
+.header-table strong {
+  width: 25%;
+  font-size: 1.2em;
+}
+
+.body-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.line-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.6em;
+  background: #fffafa;
+  text-align: left;
+  position: relative;
+  margin-bottom: 8px;
+  padding: 0 24px;
+  font-size: 1.2em;
+}
+
+.line-table span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-table:first-child {
+  margin-top: 24px;
+}
+
+.line-table span {
+  width: 25%;
+}
+
+.action-buttons {
+  display: flex;
+  position: absolute;
+  right: 3.2em;
+}
+
+.action-buttons img {
+  width: 2em;
+  cursor: pointer;
+}
+
+.action-buttons img:first-child {
+  margin-right: 0.8em;
+}
+
+@media only screen and (max-width: 880px) {
+  .header-table strong {
+    width: 70%;
+  }
+
+  .line-table span {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .header-table strong {
+    width: 30%;
+  }
+
+  .line-table span {
+    width: 30%;
+  }
+
+  .action-buttons {
+    right: 0em;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .line-table span {
+    width: 55%;
+  }
+
+  .header-table strong {
+    width: 55%;
+  }
+
+  .line-table,
+  .header-table {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .container-table {
+    font-size: 1.6rem;
+    overflow-y: scroll;
+  }
+
+  .action-buttons {
+    right: 0em;
+  }
+
+  .action-buttons img {
+    width: 1.6em;
+  }
+
+  .action-buttons img:first-child {
+    margin-right: 0.3em;
+  }
+}
