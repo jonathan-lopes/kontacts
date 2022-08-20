@@ -34,8 +34,6 @@ function SignUp() {
 
     const result = await requests.post("usuarios", body);
 
-    console.log("result:", result);
-
     if (result) {
       toast.messageSuccess("Usuário cadastrado com sucesso");
       history.push("/");
