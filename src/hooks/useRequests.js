@@ -47,7 +47,7 @@ function useRequests() {
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data);
+        throw new Error(data.message);
       }
 
       return data;
@@ -119,7 +119,7 @@ function useRequests() {
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data);
+        throw new Error(data.message);
       }
 
       return data;
@@ -153,7 +153,7 @@ function useRequests() {
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data);
+        throw new Error(data.message);
       }
 
       return data;
